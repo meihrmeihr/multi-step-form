@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Condition } from "../context/Statecontext";
 
 import Steps from "./Steps";
