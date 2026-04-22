@@ -18,7 +18,7 @@ export default function Plans() {
   useEffect(() => {
     // check for isYearly variable changes
     setAddons((prevObj)=>{
-      return prevObj.map(({id,feature,explainFeature,checked,cost})=>{
+      return prevObj.map(({id,feature,explainFeature,checked})=>{
         if (id === 1) return {id,feature,explainFeature,checked,cost: isYearly ? "+$10/yr" : "+$1/mo"}
         if (id === 2) return {id,feature,explainFeature,checked,cost: isYearly ? "+$20/yr" : "+$2/mo"}
         if (id === 3) return {id,feature,explainFeature,checked,cost: isYearly ? "+$20/yr" : "+$2/mo"}
