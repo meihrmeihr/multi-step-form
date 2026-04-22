@@ -7,7 +7,6 @@ export default function NavigateButtons() {
     stepCell,
     setStepCells,
     planType,
-    isNotSelected,
     setIsNotSelected,
     isConfirmed,
     setIsConfirmed,
