@@ -40,6 +40,7 @@ export default function NavigateButtons() {
               setStepCells((prevVal) =>
                 prevVal !== 4 ? prevVal + 1 : prevVal,
               );
+              setIsNotSelected(false);
             } else setIsNotSelected(true);
           }}
         >
