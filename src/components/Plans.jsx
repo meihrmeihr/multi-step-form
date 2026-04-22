@@ -10,7 +10,6 @@ export default function Plans() {
     setPlanType,
     isYearly,
     setIsYearly,
-    chosenPlan,
     setChosenPlan,
     isNotSelected,
     setAddons,
